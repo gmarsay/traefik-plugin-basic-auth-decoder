@@ -1,4 +1,4 @@
-package main
+package basicAuthDecoder
 
 import (
 	"encoding/base64"
@@ -40,4 +40,4 @@ func (p *BasicAuthDecoder) ServeHTTP(rw http.ResponseWriter, req *http.Request) 
 	}
 
 	p.next.ServeHTTP(rw, req)
-} 
+}

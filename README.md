@@ -16,7 +16,7 @@ experimental:
   plugins:
     basicAuthDecoder:
       moduleName: github.com/gmarsay/traefik-plugin-basic-auth-decoder
-      version: v0.4.0
+      version: v0.5.0
 ```
 
 ## Utilisation

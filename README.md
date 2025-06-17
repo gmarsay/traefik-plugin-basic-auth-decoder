@@ -1,0 +1,1 @@
+# traefik-plugin-basic-auth-decoder

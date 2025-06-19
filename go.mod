@@ -1,3 +1,3 @@
 module github.com/gmarsay/traefik-plugin-basic-auth-decoder
 
-go 1.21
+go 1.22.1

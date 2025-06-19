@@ -1,10 +1,6 @@
 displayName: Basic auth decoder Plugin
 type: middleware
-
 import: github.com/gmarsay/traefik-plugin-basic-auth-decoder
-
 summary: 'Decoder username in Authorization header and add it to the request header X-Traefik-Loggable-Username'
 
-testData:
-  Headers:
-    Authorization: "Basic dXNlcjpwYXNz"
+testData: {}
